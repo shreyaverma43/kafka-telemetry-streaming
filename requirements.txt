@@ -1,1 +1,13 @@
-kafka-python
+Step 1 – Install Java
+Step 2 – Download and Extract Kafka
+Step 3 – Start Zookeeper
+zookeeper-server-start.bat ../../config/zookeeper.properties
+Step 4 – Start Kafka Server
+Started Kafka broker on localhost:9092.
+kafka-server-start.bat ../../config/server.properties
+Step 5 – Create Kafka Topic
+kafka-topics.bat --create --topic telemetry-data --bootstrap-server localhost:9092
+Step 6 – Producer Implementation
+Step 7 – Consumer Implementation
+Step 8 – JSON Messaging
+Step 9 – Real-Time Streaming
