@@ -1,2 +1,2 @@
 # kafka-telemetry-streaming
-Real-time telemetry data streaming project using Apache Kafka and Python. This project demonstrates Producer-Consumer architecture where sensor temperature data is continuously sent to a Kafka topic and consumed in real time
+This project demonstrates a real-time sensor telemetry streaming system using Apache Kafka and Python. A Kafka Producer continuously generates live temperature sensor data and sends it to a Kafka topic, while a Kafka Consumer receives and displays the streamed data in real time.
